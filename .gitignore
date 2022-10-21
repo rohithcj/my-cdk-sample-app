@@ -1,0 +1,11 @@
+.DS_Store
+
+build/
+.cache
+compile_commands.json
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.idea
+cmake-build-debug

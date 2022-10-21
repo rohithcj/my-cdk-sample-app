@@ -1,0 +1,26 @@
+{
+    "env": "dev",
+    "appName": "MySample",
+    "appAccount": "xxxxxxxxxxxx",
+    "region": "ca-central-1",
+    "lambda": [
+        {
+            "name": "First",
+            "path": "../lambdas/first_function",
+            "envVars": {
+                "db_url": "https://localhost:9001"
+            }
+        },
+        {
+            "name": "Second",
+            "path": "../lambdas/second_function",
+            "envVars": {
+                "db_url": "https://localhost:9002"
+            }
+        }   
+    ],
+    "tags": {
+        "project": "Sample",
+        "owner": "test"
+    }
+}
